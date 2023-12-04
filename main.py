@@ -12,7 +12,7 @@ def read_data_from_file(file_path):
         return None
 
 def main():
-    day_number = 2  # Change this to the desired day number
+    day_number = 3  # Change this to the desired day number
     input_file_path = f'input/day{day_number}'
     
     data = read_data_from_file(input_file_path)
